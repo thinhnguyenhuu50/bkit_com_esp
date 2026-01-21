@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SensorData {
+    uint32 sensor_id = 1;
+    float sensor_value = 2;
+    uint64 timestamp = 3;
+}
