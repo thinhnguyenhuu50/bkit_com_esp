@@ -1,5 +1,5 @@
-#include "bkit_protocol.h"
-#include "hw_driver.h"
+#include "../include/bkit_protocol.h"
+#include "../include/hw_driver.h"
 #include <pb_encode.h>
 #include <pb_decode.h>
 #include <Arduino.h> // For millis()
